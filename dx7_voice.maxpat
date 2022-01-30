@@ -93,10 +93,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 508.0, 113.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -153,11 +149,11 @@
 				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 763.0, 148.0, 312.0, 22.0 ],
-					"text" : "route algorithm feedback ratio oscFeedback ratchet"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 763.0, 148.0, 242.0, 22.0 ],
+					"text" : "route algorithm feedback ratio oscFeedback"
 				}
 
 			}
@@ -180,10 +176,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 61.41176426410675, 615.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -234,7 +226,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -1404,7 +1395,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 209.0, 335.0, 146.0, 22.0 ],
-																	"text" : "send 4038-r6_out"
+																	"text" : "send 4591-r6_out"
 																}
 
 															}
@@ -19595,7 +19586,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 889.700000000000045, 407.861339499999985, 517.5, 407.861339499999985 ],
+					"midpoints" : [ 884.0, 407.861339499999985, 517.5, 407.861339499999985 ],
 					"source" : [ "obj-31", 2 ]
 				}
 
